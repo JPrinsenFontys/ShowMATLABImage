@@ -28,7 +28,11 @@ namespace ShowMATLABImage
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// een afbeelding van Matlab met de beroepmde differentiaalvergelijking die het logo
+        /// van Matlab weergeeft plotten met opgegeven maasaantal
+        /// </summary>
+        /// <param name="gridSize">maasaantal</param>
         public void UpdateGraphic(double gridSize)
         {
             object[] ans = createImage.GimmePeaks(3, gridSize);
